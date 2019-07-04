@@ -12,7 +12,7 @@ Model simulator written in Haskell, GUI created using GTK.
 
 #### 2. The program can be run in either text mode or GUI mode. Running in text mode requires the following arguments:
 * -t flag to indicate text mode 
-* Radius: spcifies the number of houses a given house will be compared to when computing similarity score (range: an integer x: 0 <= x <= w where w is the width of the grid)
+* Radius: spcifies the number of houses a given house will be compared to when computing similarity score (range: an integer x: 0 <= x <= 5)
 * Similarity Threshold: the similarity score at which point a house is considered by the model to be "satisfied." Any score lower than the threshold triggers a move to a different position in the grid. 
 * Max Steps: number of simulation iterations (for smaller grids, some integer < 10 is reasonable)
 
